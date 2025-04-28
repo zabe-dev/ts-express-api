@@ -1,0 +1,8 @@
+{
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "always"
+	},
+	"javascript.validate.enable": true,
+	"typescript.validate.enable": true
+}

@@ -1,0 +1,46 @@
+{
+	"name": "ts-express-api",
+	"version": "1.0.0",
+	"description": "A simple Express API starter template using TypeScript",
+	"main": "src/index.ts",
+	"scripts": {
+		"start": "ts-node src/index.ts",
+		"dev": "nodemon src/index.ts",
+		"build": "rimraf dist && tsc",
+		"lint": "eslint src --fix",
+		"format": "prettier \"src/**/*.{js,jsx,ts,tsx}\" --write",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "JAY B.. <jay@zabe.dev> (https://zabe.dev)",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zabe-dev/ts-express-api.git"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.5.0",
+		"express": "^5.1.0",
+		"helmet": "^8.1.0",
+		"morgan": "^1.10.0",
+		"zod": "^3.24.3"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.17",
+		"@types/express": "^5.0.1",
+		"@types/morgan": "^1.9.9",
+		"@types/node": "^22.15.2",
+		"@typescript-eslint/eslint-plugin": "^7.18.0",
+		"@typescript-eslint/parser": "^7.18.0",
+		"eslint": "^8.57.1",
+		"eslint-config-airbnb-typescript": "^18.0.0",
+		"eslint-import-resolver-typescript": "^4.3.4",
+		"eslint-plugin-import": "^2.31.0",
+		"nodemon": "^3.1.10",
+		"prettier": "^3.5.3",
+		"rimraf": "^6.0.1",
+		"ts-node": "^10.9.2",
+		"typescript": "5.5"
+	}
+}
